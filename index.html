@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>main</title>
+  <link rel="stylesheet" href="css/clear.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="js/jquery-placeholder.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/form-styler.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="header">
+      <div class="top-header">
+        <div class="main-cont clearfix">
+         
+          <div class="top-nav-menu">
+            <a href="#" class="top-nav-menu__item"><span>Доставка и оплата</span></a>
+            <a href="#" class="top-nav-menu__item"><span>Статьи</span></a>
+            <a href="#" class="top-nav-menu__item"><span>Отзывы</span></a>
+            <a href="#" class="top-nav-menu__item"><span>Контакты</span></a>
+          </div>
+          
+          <div class="top-callback">
+            <div class="top__ico"><img src="img/Layer-30-copy-2.png" alt=""></div>
+            <div class="top-callback__contacts">
+             <div class="top-phone">+7 (343) 288-53-12</div>
+              <div class="top-mail"><span>эл.почта:</span><span><a href="">avtosvechi@site.ru</a></span></div>
+            </div>
+            <div class="top-callback__btn">Обратный звонок</div>
+          </div>
+           <a href="#" class="top-basket">
+              <div class="top__ico"><img src="img/MergedLayers.png" alt=""></div>
+             <div class="top-basket__quantity"><span class="js-top-basket__quantity--number">8</span><span class='top-basket__quantity--pcs'>шт.</span><span class="js-top-basket__quantity--price">1 500 </span><span class='top-basket__quantity--pcs'>р.</span></div>
+            </a>
+          
+          <div class="top-lk">
+            <a href="#"><div class="top__ico"><img src="img/Layer-29.png" alt=""></div><div class="top-lk__text js-top-lk__text">Личный кабинет</div></a>
+          </div>
+        </div>
+      </div>
+      <div class="top-header-second">
+       <div class="main-cont clearfix">
+       
+         <div class="top-header-second__logo-reg">
+          <div class="logo-reg-region">
+            <span class="city-pre-txt">Ваш город:</span>
+            <span class="city-select js-city-select">Екатеринбург</span>
+          </div>
+          <div class="logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+        </div>
+        
+        <div class="top-header-second__filter">
+           
+            <div class="filte-auto-options">
+            <h3 class="filter-title">Подбор по марке авто</h3>
+            <div class="selects-filter">
+              <div class="button__select btn-select-car">
+                <select class="select-arr">
+                  <option>Kia</option>
+                  <option>Ne Kia</option>
+                </select>
+              </div>
+              
+              <div class="button__select btn-select-mark">
+                <select class="select-arr">
+                  <option>Sportage</option>
+                  <option>Sportage super very fast simple cool hah</option>
+                </select>
+              </div>
+                
+              <div class="button__select btn-seleft-year">
+                <select class="select-arr">
+                  <option>-год-</option>
+                  <option>2007</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="filter-article-number">
+            <div class="filter-article-number__radioBtn">
+              <div class="top-filter__radioBtn--wrap">
+                <label class='vam' name="menu-select" for="menu-select">
+                  <input class='top-filter__radioBtn' name="menu-select" type='radio' id="menu-select">
+                  <span class="selection-button"></span>
+                  <span class="top-filter__text">По артикулу</span>
+                </label>
+              </div>
+            
+              <div class="top-filter__radioBtn--wrap">
+                <label class='vam' name="menu-select" for="menu-select2">
+                  <input class='top-filter__radioBtn' name="menu-select" type="radio" id="menu-select2">
+                  <span class="selection-button"></span>
+                  <span class="top-filter__text">По номеру</span>
+                 </label>
+              </div>
+            </div>
+            <div class="article-fild--wrap"><input class='article-fild' type="text"><button class="submit-top-filter">ок</button></div>
+          </div>
+        </div>
+        
+       </div>
+      </div>
+  </div>
+
+
+  <div class="popup--wrap chose-city--popup--wrap js-chose-city--popup--wrap">
+      <div class="popup chose-city-popup">
+       <div class="popup__close js-popup-close"><img src="img/Layer-66.png" alt=""></div>
+        <div class="chose-city-popup__title">Укажите свой город</div>
+        <form action="" class="popup__search">
+          <input type='search' class="popup__search-fild" placeholder="Екатеринбург"><input type='submit' class="popup__submit-fild" value="Поиск">
+        </form>
+      <div class="popup__city-list clearfix">
+        <div class="popup__city-list-title">Популярные города</div>
+        <ul class="popup__chose-city-col">
+          <li class="chose-city__item"><a href="">Екатеринбург</a></li>
+          <li class="chose-city__item"><a href="">Казань</a></li>
+          <li class="chose-city__item"><a href="">Курган</a></li>
+          <li class="chose-city__item"><a href="">Москва</a></li>
+        </ul>
+        
+        <ul class="popup__chose-city-col popup__chose-city-col--center">
+          <li class="chose-city__item"><a href="">Нижний Новгород</a></li>
+          <li class="chose-city__item"><a href="">Новосибирск</a></li>
+          <li class="chose-city__item"><a href="">Омск</a></li>
+          <li class="chose-city__item"><a href="">Пермь</a></li>
+        </ul>
+        
+        <ul class="popup__chose-city-col">
+          <li class="chose-city__item"><a href="">Санкт-Петербург</a></li>
+          <li class="chose-city__item"><a href="">Тюмень</a></li>
+          <li class="chose-city__item"><a href="">Уфа</a></li>
+          <li class="chose-city__item"><a href="">Челябинск</a></li>
+        </ul>
+      </div>
+        <div class="popup__show-all-city">показать все города (229)</div>
+      </div>
+    </div>
+
+  
+  <div class="popup--wrap autorization--popup--wrap js-autorization--popup--wrap">
+    <div class="popup popup--autorization">
+      <div class="popup__close js-popup-close"><img src="img/Layer-66.png" alt=""></div>
+      <div class="popup__logo"><img src="img/logo-s.png" alt=""></div>
+      
+      <div class="popup__social-authorization">
+
+        <div class="social-link-reg__item">
+          <div class="social-link-reg__ico"><img src="img/Layer-69.png" alt=""></div>
+          <div class="social-link-name"><a href="">ВКонтакте</a></div>
+        </div>
+
+        <div class="social-link-reg__item">
+          <div class="social-link-reg__ico"><img src="img/Layer-70.png" alt=""></div>
+          <div class="social-link-name"><a href="">Яндекс</a></div>
+        </div>
+
+        <div class="social-link-reg__item">
+          <div class="social-link-reg__ico"><img src="img/fb.png" alt=""></div>
+          <div class="social-link-name"><a href="">Facebook</a></div>
+        </div>
+
+        <div class="social-link-reg__item">
+          <div class="social-link-reg__ico"><img src="img/mail-72.png" alt=""></div>
+          <div class="social-link-name"><a href="">Mail.Ru</a></div>
+        </div>
+
+      </div>
+      
+      <form action="" class="popup__authorization-form">
+        <div class="authorization-fild--wrap">
+          <input class='input-fild authorization-fild' type="text" placeholder='Email'>
+        </div>
+        <div class="authorization-fild--wrap">
+          <input class='input-fild authorization-fild' type="password" placeholder='Пароль'>
+        </div>
+        <input class="popup__authoriz-enter-btn" type='submit' value="Войти">
+      </form>
+      <div class="after-from-links"><span>Забыли пароль?</span><span>Регистрация</span></div>
+    </div>
+  </div>
+  
+  <div class="popup--wrap vin--popup--wrap js-vin--popup--wrap">
+    <div class="popup popup--vin">
+      <div class="popup__close js-popup-close">Закрыть окно<img src="img/Layer-65.png" alt=""></div>
+      <div class="popup__title-vin"><span>VIN</span> запрос</div>
+      
+      <form action="" class="vin-form clearfix">
+        <div class="vin-form__first-part">
+          <div class="vin-fild--wrap">
+            <input class='input-fild vin-fild' type="text" placeholder='Имя'>
+          </div>
+          <div class="vin-fild--wrap">
+            <input class='input-fild vin-fild' type="text" placeholder='Телефон'>
+          </div>
+          <div class="vin-fild--wrap">
+            <input class='input-fild vin-fild' type="text" placeholder='E-mail'>
+          </div>
+          <input class='submit-btn vin-form__submit' type='submit' value="Отправить запрос">
+        </div>
+        
+        <div class="vin-form__second-part">
+          <div class="vin-fild--wrap">
+            <input class='input-fild vin-fild' type="text" placeholder='vin-номер'>
+          </div>
+          <textarea class="input-fild vin-textare" name="" id="" cols="30" rows="10" placeholder="Список запчастей"></textarea>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+  
+  
+  
+
+  <div class="main-cont">
+     <div class="main-cont__slider-aside--wrap clearfix">
+      <div class="product-menu product-menu--left">
+         
+        <a href='#' class="product-menu__item item-svechi item-svechi--simple ">
+            <div class="product-menu__text">Простые свечи</div>
+          </a>
+          
+        <a href='#' class="product-menu__item  item-svechi  item-svechi--platina ">
+            <div class="product-menu__text">Платиновые свечи</div>
+          </a>
+          
+          <a href='#' class="product-menu__item  item-svechi  item-svechi--irid ">
+            <div class="product-menu__text">Иридивые свечи</div>
+          </a>
+          
+          <a href='#' class="product-menu__item  item-svechi  item-svechi--spec ">
+            <div class="product-menu__text">Свечи для спецтехники</div>
+          </a>
+          
+      </div>
+      
+      <div class="main-slider">
+        <div id="owl-demo" class="owl-carousel">
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+          <div class='item'><img src="img/svechi-sl.png" alt=""></div>
+        </div>
+      </div>
+  </div>
+      
+      <div class="main-cont__category--wrap">
+      <div class="category-menu clearfix">
+        <a href='#' class="category-menu__item category-menu__item--long">
+          <div class="category-menu__img"><img src="img/Layer-15.png" alt=""></div>
+          <div class="category-menu__link"><span href="#">Свечи Bosch</span></div>
+        </a>
+        
+        <a href='#' class="category-menu__item category-menu__item--long">
+          <div class="category-menu__img"><img src="img/Layer-16.png" alt=""></div>
+          <div class="category-menu__link"><span href="#">Свечи NGK</span></div>
+        </a>
+        
+        <a href='#' class="category-menu__item category-menu__item--long">
+          <div class="category-menu__img"><img src="img/Layer-17.png" alt=""></div>
+          <div class="category-menu__link"><span href="#">Свечи DENSO</span></div>
+        </a>
+        
+        <a href='#' class="category-menu__item category-menu__item--long">
+          <div class="category-menu__img"><img src="img/Layer-18.png" alt=""></div>
+          <div class="category-menu__link"><span href="#">Оригинальные свечи</span></div>
+        </a>
+      </div>
+      
+    </div>
+      
+      <div class="main-cont__chose-mark--wrap clearfix">
+        <div class="aside-news aside-news--help-inf">
+          <div class="promo-vin js-promo-vin">Запрос по <span class="promo-vin--red">VIN</span>-коду</div>
+          
+          <div class="aside-news__popular">
+            <h3 class="title-section">Полезная информация</h3>
+            <div class="aside-news__news-wrap">
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Признаки неисправностей свечей зажигания</a></div>
+              </div>
+              
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Какие свечи зажигания лучше выбрать?</a></div>
+              </div>
+              
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Как выбрать свечи зажигания</a></div>
+              </div>
+              
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Что такое свечи зажигания?</a></div>
+              </div>
+              
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Признаки неисправностей свечей зажигания</a></div>
+              </div>
+              
+              <div class="aside-news__news-item">
+                <div class="news-date">31.04.16</div>
+                <div class="news-link"><a href="#">Признаки неисправностей свечей зажигания</a></div>
+              </div>
+              
+            </div>
+            
+            <div class="aside-news__all-articles">
+              <a href="#">Все статьи</a>
+            </div>
+            
+          </div>
+        </div>
+         
+          <div class="category-model-wrap">
+            <div class="category-model__title">Подбор свечей зажигания <div>по марке автомобиля</div></div>
+              <div class="category-model clearfix">
+                
+                <ul class="category-model-row ">
+                  <li data-letter="A" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Acura</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+
+                
+                  <li data-letter="B" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-45.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Bentley</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-46.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">BMW</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-47.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Brilliance</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-48.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Buick</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-49.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Buick</span></a>
+                  </li>
+                
+                  <li data-letter="C" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-50.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Cadillac</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-51.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Chery</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-52.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Chevrolet</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-53.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Chrysler</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-54.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Citroen</span></a></li>
+                
+                  <li data-letter="D" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-58.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Datsun</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-55.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Daewoo</span></a></li>
+                
+                  </ul>
+                    
+                    
+                  <ul class="category-model-row">
+                  
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Audi</span></a></li>
+
+                    <li data-letter="F" class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Acura</span></a>
+                    </li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Audi</span></a></li>
+
+                    <li data-letter="G" class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Acura</span></a>
+                    </li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Audi</span></a></li>
+
+                    <li data-letter="H" class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Acura</span></a>
+                    </li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Audi</span></a></li>
+
+                    <li data-letter="I" class="category-model__item">
+                      <span class="ico-category-model "><img src="img/Layer-71.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Infiniti</span></a>
+                    </li>
+                    <li class="category-model__item">
+                      <span class="ico-category-model"><img src="img/Layer-72.png" alt=""></span>
+                      <a href="#"><span class="category-model__link">Isuzu</span></a></li>
+                    
+                
+                </ul>
+                
+                
+                <ul class="category-model-row">
+                 
+                  <li data-letter="J" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Acura</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                  
+                
+                  <li data-letter="K" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Acura</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                    
+                  <li data-letter="L" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Acura</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                  
+                
+                  <li data-letter="M" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-41.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Acura</span></a>
+                  </li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-42.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Alfa Romeo</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-43.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Aston Martin</span></a></li>
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-101.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">MH</span></a></li>
+                    
+                </ul>
+                
+                <ul class="category-model-row">
+                  
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li data-letter="N" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li data-letter="O" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li data-letter="P" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+
+                  <li data-letter="R" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li data-letter="S" class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-44.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Audi</span></a></li>
+                    
+                  <li class="category-model__item">
+                    <span class="ico-category-model"><img src="img/Layer-99.png" alt=""></span>
+                    <a href="#"><span class="category-model__link">Suzuki</span></a></li>
+                  
+                </ul>
+                
+                
+              </div>
+            <div class="category-show-all--wrap">
+              <div class="category-model__show-all"><a href="">Показать полный список</a></div>
+            </div>
+          </div>
+      </div>
+      
+      
+  </div>
+
+
+<div class="news-section">
+  <div class="main-cont clearfix">
+    <div class="vk-wiget">
+      <script type="text/javascript" src="//vk.com/js/api/openapi.js?130"></script>
+
+      <!-- VK Widget -->
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 4, width: "328", height: "549", color1: 'FFFFFF', color2: '000000', color3: '5E81A8'}, 20003922);
+      </script>
+    </div>
+    
+    <div class="news-company--wrap">
+      <div class="news-section__bread-crumbs">
+        <span class="bread-crumbs__current-page">Новости компании</span><span><a href="">Все новости</a></span>
+      </div>
+      <div class="news-section__news-list clearfix">
+        <div class="news-list-item">
+          <div class="news-date">31.04.16</div>
+          <div class="news-link"><a href="#">Первые свечи новой линейки TT появились в продаже</a></div>
+        </div>
+        
+        <div class="news-list-item">
+          <div class="news-date">31.04.16</div>
+          <div class="news-link"><a href="#">Первые свечи новой линейки TT появились в продаже</a></div>
+        </div>
+        
+        <div class="news-list-item">
+          <div class="news-date">31.04.16</div>
+          <div class="news-link"><a href="#">Первые свечи новой линейки TT появились в продаже</a></div>
+        </div>
+        
+      </div>
+      <div class="subscription subscription--main">
+        <span>Подписка</span>
+        <input class="subscription__email"  type="text" placeholder="эл.почта">
+        <input class="subscription__submit" type='submit' value="Подписаться">
+      </div>
+      
+      <div class="news-site">
+        <h3 class="news-site__title">Свечи зажигания для автомобилей</h3>
+        <p class="news-site__content">С каждым годом растут объемы продаж автомобилей KIA на российском рынке. Демократичная цена, отличные технические характеристики и большой модельный ряд завоевали доверие покупателей. Самыми покупаемыми оказались такие модели KIA как Rio, Sportage, Soul и Cee’d. Седан, кроссовер или хэтчбек не оставят равнодушным ни одного автолюбителя благодаря своей начинке, безопасности и доступной цене.<br><br><br><br>Автомобили KIA недороги в обслуживании. Их преимущества – это среднее потребление топлива 7-9 литров при смешанном цикле (город, трасса), высокий ресурс работы основных узлов и низкий (по сравнению с европейскими аналогами) ценник.</p>
+      </div>
+      
+    </div>
+    
+    
+  </div>
+</div>
+</div>
+
+
+
+  <div class="footer">
+      <div class="main-cont clearfix">
+       
+        <div class="footer__contact-logo">
+        <div class="footer__logo"><img src="img/ft_logo.png" alt=""></div>
+        <div class="footer__contacts">
+          <div class="footer__callback">
+            <span class="footer__phone"><span>(495)</span> 025-88-99</span><span class="footer__callback--btn"><a href="">Обратный звонок</a></span>
+            <div class="footer__adress">г.Екатеринбург, ул. Машинная, 29Б, оф.312</div>
+          </div>
+          <div class="footer__contact-second clearfix">
+            <div class="footer__email">
+              <div class='ft__contact-second--small-text'>Эл.почта:</div>
+              <div class='ft__contact-second--big-text'><a href="">avtosvechi96.ru</a></div>
+            </div>
+            <div class="footer__time-work">
+              <div class='ft__contact-second--small-text'>Время работы:</div>
+              <div class='ft__contact-second--big-text'>c 10:00 до 20:00</div>
+            </div>
+          </div>
+          
+          <div class="copyright">© 2016 avtosvechi96.ru</div>
+          
+        </div>
+        </div>
+        
+        <div class="footer__second-part">
+          <ul class="footer__inner-menu clearfix">
+            <li class="inner-menu-item"><a href="#">Обычные</a></li>
+            <li class="inner-menu-item"><a href="#">платиновые</a></li>
+            <li class="inner-menu-item"><a href="#">Иридивые</a></li>
+            <li class="inner-menu-item"><a href="#">для спецтехники</a></li>
+          </ul>
+          
+          <div class="footer__service clearfix">
+              <div class="ft-service-item">
+                <div><a href="#">Доставка и оплата</a></div>
+                <div><a href="#">Статьи</a></div>
+              </div>
+              
+            <div class="ft-service-item">
+              <div><a href="#">Отзывы</a></div>
+              <div><a href="#">Контакты</a></div>
+            </div>
+            
+            
+            <div class="footer__search"><form action=""><input placeholder="Поиск" type='search' class="footer__search-fild"><input type="submit" value="" class="search-fild-img"></form></div>
+          </div>
+          
+          <div class="footer__how-pay clearfix">
+           
+            <div class="how-pay-item how-pay-item-visa">
+              <div class="pay-img"><img src="img/pays.png" alt=""></div>
+              <div class="pay-text">Онлайн-оплата Visa, MasterCard</div>
+            </div>
+            
+            <div class="how-pay-item how-pay-item-nal">
+              <div class="pay-img"><img src="img/dolar.png" alt=""></div>
+              <div class="pay-text">Оплата наличными при получении</div>
+            </div>
+            
+            <div class="how-pay-item how-pay-item-score">
+              <div class="pay-img"><img src="img/doc.png" alt=""></div>
+              <div class="pay-text">Оплата по счету</div>
+            </div>
+            
+            <div class="how-pay-item how-pay-item-visa">
+              <div class="pay-img"><img src="img/curer.png" alt=""></div>
+              <div class="pay-text">Оплата курьеру Visa, MasterCard</div>
+            </div>
+          </div>
+          
+          <div class="footer__links clearfix">
+            <ul class="footer__social">
+              <li><a href="#"><img src="img/Layer-40.png" alt=""></a></li>
+              <li><a href="#"><img src="img/Layer-39.png" alt=""></a></li>
+            </ul>
+            
+            <div class="company-developer"><a href="#" target="_blank" ><span>BodySite</span> </a>- разработка и продвижение интернет-магазина</div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+
+</body>
